@@ -2,6 +2,10 @@
 
 A personal learning project built with the Frappe Framework to practise application development, Git workflows, and report generation.
 
+### Installation instructions 
+ 
+You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+
 ## Project Overview
 
 Inspection Reports is a practice application for managing fictional industrial equipment inspections and generating structured inspection reports.
@@ -33,6 +37,7 @@ Features will be implemented incrementally as part of the learning process.
 ## Installation
 
 From your Frappe bench directory:
+develop
 
 ```bash
 bench get-app https://github.com/samiyak14/inspection-reports.git --branch develop
