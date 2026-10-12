@@ -1,33 +1,59 @@
-### Inspection Reports
+# Inspection Reports
 
-A practice application for managing industrial inspection records and generating reports
+A personal learning project built with the Frappe Framework to practise application development, Git workflows, and report generation.
 
-### Installation
+## Project Overview
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+Inspection Reports is a practice application for managing fictional industrial equipment inspections and generating structured inspection reports.
+
+This project is intended for learning and portfolio purposes. It uses fictional data and illustrative inspection rules.
+
+## Planned Features
+
+- Equipment record management
+- Inspection record creation and tracking
+- Recording inspection readings and findings
+- Illustrative inspection status and validation
+- Inspection report generation
+- Review and approval workflow
+
+## Tech Stack
+
+- **Framework:** Frappe Framework
+- **Language:** Python
+- **Database:** MariaDB
+- **Version Control:** Git and GitHub
+
+## Development Status
+
+**Current stage:** Initial application setup.
+
+Features will be implemented incrementally as part of the learning process.
+
+## Installation
+
+From your Frappe bench directory:
 
 ```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
-bench install-app inspection_reports
+bench get-app https://github.com/samiyak14/inspection-reports.git --branch develop
+bench --site your-site-name install-app inspection_reports
 ```
 
-### Contributing
+Replace `your-site-name` with the name of your Frappe site.
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## Contributing
+
+This is primarily a personal learning project. Suggestions and feedback are welcome.
+
+The repository uses pre-commit tooling for code formatting and linting. To set it up:
 
 ```bash
 cd apps/inspection_reports
 pre-commit install
 ```
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+Configured tools include Ruff, ESLint, Prettier, and pyupgrade.
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+## License
 
-### License
-
-mit
+MIT
