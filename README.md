@@ -2,8 +2,8 @@
 
 A practice application for managing industrial inspection records and generating reports
 
-### Installation
-
+### Installation instructions 
+ 
 You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
