@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-12 13:41:31.441784",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "inspection_measurement_details_section",
+  "parameter",
+  "measurement_point",
+  "measured_value",
+  "unit",
+  "reference_min",
+  "reference_max",
+  "evaluation",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "inspection_measurement_details_section",
+   "fieldtype": "Section Break",
+   "label": "Inspection Measurement Details"
+  },
+  {
+   "fieldname": "parameter",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Parameter",
+   "reqd": 1
+  },
+  {
+   "fieldname": "measurement_point",
+   "fieldtype": "Data",
+   "label": "Measurement Point"
+  },
+  {
+   "fieldname": "measured_value",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Measured Value"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reference_min",
+   "fieldtype": "Float",
+   "label": "Reference Min"
+  },
+  {
+   "fieldname": "reference_max",
+   "fieldtype": "Float",
+   "label": "Reference Max"
+  },
+  {
+   "fieldname": "evaluation",
+   "fieldtype": "Select",
+   "label": "Evaluation",
+   "options": "Not Evaluated\nOK\nNot OK"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-12 14:43:37.380518",
+ "modified_by": "Administrator",
+ "module": "Inspection Reports",
+ "name": "Inspection Measurement",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

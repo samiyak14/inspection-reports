@@ -13,6 +13,7 @@
   "model",
   "serial_number",
   "installation_date",
+  "location",
   "status",
   "naming_series"
  ],
@@ -70,12 +71,17 @@
    "fieldname": "installation_date",
    "fieldtype": "Date",
    "label": "Installation Date"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-10-12 11:15:12.570164",
+ "modified": "2026-10-12 13:37:42.175929",
  "modified_by": "Administrator",
  "module": "Inspection Reports",
  "name": "Equipment",

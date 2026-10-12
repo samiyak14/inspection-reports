@@ -1,9 +1,11 @@
-# Copyright (c) 2026, Personal Project and contributors
-# For license information, please see license.txt
-
-# import frappe
+import frappe
 from frappe.model.document import Document
 
 
 class Equipment(Document):
-	pass
+    def validate(self):
+        self.validate_equipment_name()
+
+    def validate_equipment_name(self):
+        if not self.equipment_name or not self.equipment_name.strip():
+            frappe.throw("Equipment Name is required.")
